@@ -11,10 +11,10 @@
 </head>
 <body>
     <div class="container">
-        <form method="post" enctype="multipart/form-data">
+        <form method="post" enctype="multipart/form-data" action="/upload">
           <div class="form-group">
             <label for="image">Select a video file:</label>
-            <input type="file" class="form-control-file" id="video" name="video" accept="video/*">
+            <input type="file" class="form-control-file" id="video" name="video" accept="*">
           </div>
           <button type="submit" class="btn btn-primary">Upload</button>
         </form>
